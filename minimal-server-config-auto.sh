@@ -53,3 +53,10 @@ case "$response" in
         echo If you want to change the .bashrc file lunch this script again and say Y / Yes
         ;;
 esac
+
+git config --global user.emai "zexeos.github@protonmail.com"
+
+git config --global user.user "blqpro"
+
+git config --global core.editor "nano"
+
