@@ -34,19 +34,19 @@ case "$response" in
     [yY][eE][sS]|[yY]) 
        
         cd ~/
-        mkdir tempgit
+        mkdir tempsgit
 
-        cd tempgit
+        cd tempsgit
         git clone https://github.com/blqpro/debian-conf.git       
         
         cd ~/
         sudo rm .bashrc
 
-        cp ~/tempgit/debian-conf/.bashrc-server ~/.bashrc
+        cp ~/tempsgit/debian-conf/.bashrc-server ~/.bashrc
         
         cd ~/
-        sudo rm -rf tempgit
-        
+        sudo rm -rf tempsgit
+
 
         ;;
     *)
