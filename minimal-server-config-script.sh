@@ -33,10 +33,11 @@ read -r -p "Are you sure you want to change the .bashrc config file  ?? [y/N] " 
 case "$response" in
     [yY][eE][sS]|[yY]) 
         
+        cd ~/
         mkdir tempgit
         cd tempgit
         git clone https://github.com/blqpro/debian-conf.git       
-        cd 
+        cd ~/
         sudo rm .bashrc
         cp ~/tempgit/debian-conf/.bashrc-server ~/.bashrc
         
