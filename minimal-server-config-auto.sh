@@ -28,23 +28,26 @@ sudo apt-get install nginx -y
 echo$ "install build-essential"
 sudo apt-get install build-essential -y
 
+echo$ "install neofetch"
+sudo apt-get install neofetch
+
 
 read -r -p "Are you sure you want to change the .bashrc config file  ?? [y/N] " response
 case "$response" in
     [yY][eE][sS]|[yY]) 
        
-        cd ~/
+        cd
         mkdir tempsgit
 
         cd tempsgit
         git clone https://github.com/blqpro/debian-conf.git       
         
-        cd ~/
+        cd
         sudo rm .bashrc
 
         cp ~/tempsgit/debian-conf/.bashrc-server ~/.bashrc
         
-        cd ~/
+        cd
         sudo rm -rf tempsgit
 
 
@@ -53,10 +56,3 @@ case "$response" in
         echo If you want to change the .bashrc file lunch this script again and say Y / Yes
         ;;
 esac
-
-git config --global user.emai "zexeos.github@protonmail.com"
-
-git config --global user.user "blqpro"
-
-git config --global core.editor "nano"
-
