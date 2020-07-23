@@ -29,15 +29,18 @@ echo$ "install build-essential"
 sudo apt-get install build-essential -y
 
 echo$ "install arc-theme for gnome 3 DE/WM"
-sudo apt install arc-theme
+sudo apt-get install arc-theme
 
 echo$ "install snap if not installed"
-sudo apt install snap
+sudo apt-get install snap
+
+echo$ "install ssh if not installed"
+sudo apt-get install ssh
 
 #Install extra SNAP software 
 echo$ "install extra SNAP software"
 
-read -r -p "Are you sure you want to install vscode//obs-studio//opera ?? [y/N] " response
+read -r -p "Are you sure you want to install vscode//obs-studio//opera via SNAPSTORE ?? [y/N] " response
 case "$response" in
     [yY][eE][sS]|[yY]) 
         echo$ "install vscode obs-studio and opera-browser"
