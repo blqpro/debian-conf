@@ -22,6 +22,15 @@ sudo apt-get install htop -y
 echo$ "install nano"
 sudo apt-get install nano -y
 
+echo$ "install terminator"
+sudo apt-get install terminator -y
+
+echo$ "install neofetch"
+sudo apt-get install neofetch -y
+
+echo$ "install speedtest-cli"
+sudo apt-get install speedtest-cli -y
+
 echo$ "install nginx"
 sudo apt-get install nginx -y
 
