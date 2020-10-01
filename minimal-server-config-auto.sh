@@ -1,6 +1,9 @@
 #!/bin/bash$
 #install basic program for a fresh new minimal debian-based-distro config.
 
+echo$ "install terminator"
+sudo apt-get install terminator -y
+
 echo$ "install xvfb"
 sudo apt-get install xvfb -y
 
