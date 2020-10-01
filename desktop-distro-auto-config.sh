@@ -53,9 +53,9 @@ read -r -p "Are you sure you want to install vscode//obs-studio//opera via SNAPS
 case "$response" in
     [yY][eE][sS]|[yY]) 
         echo$ "install vscode obs-studio and opera-browser"
-				sudo snap install --classic code
-				sudo snap install obs-studio
-				sudo snap install opera
+				snap install --classic code
+				snap install obs-studio
+				snap install opera
         ;;
     *)
         echo If you want to install vscode//obs-studio//opera lunch this script again and say Y / Yes
