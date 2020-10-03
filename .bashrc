@@ -126,3 +126,4 @@ PS1="\[\e[1;35m\]\h \[\e[0;36m\]\u \[\e[0;33m\]\w \[\e[0;37m\] \[\e[0m\]"
 # PS1 FOR SERVER:
 #PS1="\A \[$(tput sgr0)\]\[\033[38;5;126m\]\u\[$(tput sgr0)\] \[$(tput sgr0)\]\[\033[38;5;11m\]\W\[$(tput sgr0)\] \[$(tput sgr0)\]\[\033[38;5;171m\]\\$\[$(tput sgr0)\]"
 export PS1
+	
