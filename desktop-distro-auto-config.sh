@@ -1,5 +1,5 @@
 #!/bin/bash$
-#install basic program for a fresh new debian-based-distro desktop config with gnome 3.
+#install basic program for a fresh new debian-based-distro desktop config with gnome 3(xorg) WM.  
 
 echo$ "install xvfb"
 sudo apt-get install xvfb -y
@@ -40,6 +40,9 @@ sudo apt-get install build-essential -y
 echo$ "install arc-theme for gnome 3 DE/WM"
 sudo apt-get install arc-theme
 
+echo$ "install gnome-tweaks"
+sudo apt install gnome-tweaks
+
 echo$ "install snap if not installed"
 sudo apt-get install snap
 
@@ -49,7 +52,7 @@ sudo apt-get install ssh
 #Install extra SNAP software 
 echo$ "install extra SNAP software"
 
-read -r -p "Are you sure you want to install vscode//obs-studio//opera via SNAPSTORE ?? [y/N] " response
+read -r -p " Are you sure you want to install vscode//obs-studio//opera via SNAPSTORE ?  [y/N] " response
 case "$response" in
     [yY][eE][sS]|[yY]) 
         echo$ "install vscode obs-studio and opera-browser"
@@ -63,7 +66,9 @@ case "$response" in
 esac
 
 
-read -r -p "Are you sure you want to change the .bashrc config file  ?? [y/N] " response
+echo$ " Change .bashrc file configuratio. "
+
+read -r -p " Are you sure you want to change the .bashrc config file ?  [y/N] " response
 case "$response" in
     [yY][eE][sS]|[yY]) 
        
@@ -80,7 +85,8 @@ case "$response" in
         
         cd
 
-
+	rm -rf ~/tempsgit/
+	
         ;;
     *)
         echo If you want to change the .bashrc file lunch this script again and say Y / Yes
