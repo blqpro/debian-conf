@@ -46,12 +46,12 @@ case "$response" in
         git clone https://github.com/blqpro/debian-conf.git       
         
         cd
-        sudo rm .bashrc
+        rm .bashrc
 
         cp ~/tempsgit/debian-conf/.bashrc-server ~/.bashrc
         
         cd
-        sudo rm -rf tempsgit
+        rm -rf tempsgit
 
 
         ;;
