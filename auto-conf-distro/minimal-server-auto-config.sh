@@ -51,7 +51,7 @@ case "$response" in
         cd
         rm .bashrc
 
-        cp ~/tempsgit/debian-conf/.bashrc-server ~/.bashrc
+        cp ~/tempsgit/debian-conf/bashrc/.bashrc-server ~/.bashrc
         
         cd
         rm -rf tempsgit
