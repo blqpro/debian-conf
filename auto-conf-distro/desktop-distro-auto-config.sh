@@ -81,7 +81,7 @@ case "$response" in
         cd
         sudo rm .bashrc
 
-        cp ~/tempsgit/debian-conf/.bashrc ~/.bashrc
+        cp ~/tempsgit/debian-conf/bashrc/.bashrc ~/.bashrc
         
         cd
 
