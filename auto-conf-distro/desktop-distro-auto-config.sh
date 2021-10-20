@@ -1,5 +1,5 @@
 #!/bin/bash$
-#install basic program for a fresh new debian-based-distro desktop config with gnome 3(xorg) WM.  
+#install my set of basic program for a fresh new debian-based-distro desktop config with gnome 3(xorg) WM and Gnome-Themes.  
 
 echo$ "install xvfb"
 sudo apt-get install xvfb -y
@@ -65,8 +65,9 @@ case "$response" in
         ;;
 esac
 
+#Change .bashrc file configuration 
 
-echo$ " Change .bashrc file configuratio. "
+echo$ " Change .bashrc file configuration. "
 
 read -r -p " Are you sure you want to change the .bashrc config file ?  [y/N] " response
 case "$response" in
