@@ -1,6 +1,7 @@
 #!/bin/bash$
 #install basic program for a fresh new minimal debian-based-distro config.
 
+# install the basic PKG for a minimal server config (with x server via ssh for graphical use remotely)
 echo$ "install terminator"
 sudo apt-get install terminator -y
 
@@ -37,7 +38,7 @@ sudo apt-get install build-essential -y
 echo$ "install neofetch"
 sudo apt-get install neofetch
 
-
+# Change the .bashrc config file.
 read -r -p "Are you sure you want to change the .bashrc config file  ?? [y/N] " response
 case "$response" in
     [yY][eE][sS]|[yY]) 
@@ -62,3 +63,4 @@ case "$response" in
         echo If you want to change the .bashrc file lunch this script again and say Y / Yes
         ;;
 esac
+#The End :)
