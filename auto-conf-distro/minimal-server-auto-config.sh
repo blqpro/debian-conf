@@ -7,7 +7,7 @@ sudo apt-get install terminator -y
 
 echo$ "install speedtest"
 sudo apt-get install speedtest-cli -y
-
+    
 echo$ "install xvfb"
 sudo apt-get install xvfb -y
 
