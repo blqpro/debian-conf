@@ -1,7 +1,7 @@
 #!/bin/bash$
 #install basic program for a fresh new minimal debian-based-distro config.
 
-# install the basic PKG for a minimal server config (with x server via ssh for graphical use remotely)
+# install the basic PKG for my minimal server config (with x server via ssh for graphical use remotely)
 echo$ "install terminator"
 sudo apt-get install terminator -y
 
