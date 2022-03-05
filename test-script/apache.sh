@@ -12,7 +12,7 @@ sudo apt install php-cgi php-pear php-gettext php-common php-phpseclib libapache
 
 
 # Change the .bashrc config file.
-read -r -p "Do you want to start the apache2 server test page [y/N] " response
+read -r -p "Do you want to start your apache2 lamp server [y/N] " response
 case "$response" in
     [yY][eE][sS]|[yY]) 
        
@@ -22,7 +22,7 @@ case "$response" in
 
         ;;
     *)
-        echo Good work you have installed a LAMP server
+        echo Good work you have installed a apache2 LAMP server
         ;;
 esac
 
