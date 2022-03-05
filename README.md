@@ -7,3 +7,5 @@ Bash script and config files for Debian-Based distribution.
 
 /bashrc/           --> Contain .bashrc file for desktop or server use (ex: for server show ip in the prompt).
 
+/test-script/      --> Contain test script i have written but i have not already tested in a vm
+
