@@ -1,6 +1,6 @@
 #!/bin/bash
 #very simple and ugly way to have a constant update of a git repo
-# THis is a very ugly way to have local backup on a deiban contianer
+# THis is a very ugly way to have local backup on a debian container
 
 
         cd debian-conf
